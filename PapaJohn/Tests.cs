@@ -4,6 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using System.Threading;
 
 namespace PapaJohn
 {
@@ -43,8 +44,8 @@ namespace PapaJohn
 		//E-Mail: papajohn23@gmail.com
 		//Pass: Papajohn23
 		{
-			//app.Tap("button2");
-			//app.Screenshot("Dismissed notification");
+			app.Tap("button2");
+			app.Screenshot("Dismissed notification");
 
 			app.Tap("signInButton");
 			app.Screenshot("Let's start by Tapping on the 'Sign In' Button");
@@ -67,7 +68,11 @@ namespace PapaJohn
 			app.Screenshot("Then we Tapped the 'Sign In' Button");
 
 			app.Tap("orderDeliveryButton");
+			app.Screenshot("Next we Tapped on the 'Order for Delivery' Button");
+
 			app.Tap("enter_address_action_button");
+			app.Screenshot("");
+
 			app.Tap("text1");
 			app.Tap(x => x.Marked("text1").Index(1));
 			app.Tap(x => x.Marked("text1").Index(1));
@@ -82,12 +87,6 @@ namespace PapaJohn
 			app.Tap("add_to_order");
 			app.Tap("top_cart_button");
 			app.Tap("checkout");
-		}
-
-		[Test]
-		public void OrderForCarryOutTest()
-		{
-			
 		}
 
 	}
