@@ -88,17 +88,16 @@ namespace PapaJohn
 
 			app.Tap("Pizza");
 			app.Screenshot("We Tapped on 'Pizza'");
-
 			app.Tap("Papa's Picks");
 			app.Screenshot("We Tapped on 'Papa's Picks'");
-
 			app.Tap("Pepperoni");
 			app.Screenshot("We Tapped on our favorite pizza, 'Pepperoni'");
-
 			app.Tap("Extra Large Original Crust Pepperoni");
-			app.Screenshot();
+			app.Screenshot("We chose the 'Extra Large' size");
 
 			app.Tap("add_to_order");
+			app.scre
+
 			app.Tap("top_cart_button");
 			app.Tap("checkout");
 		}
