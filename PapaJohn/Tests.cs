@@ -79,10 +79,15 @@ namespace PapaJohn
 			app.Screenshot("Next we Tapped on '210-222 Market St'");
 
 			app.Tap(x => x.Marked("text1").Index(1));
+			app.Screenshot("We Tapped on 'Street Number'");
+
 			app.Tap("210");
+			app.Screenshot("Then we Tapped on '210'"); 
 			app.Tap("go_button");
+			app.Screenshot("Next we Tapped on the 'Go' Button");
 
 			app.Tap("Pizza");
+
 			app.Tap("Papa's Picks");
 			app.Tap("Pepperoni");
 			app.Tap("Extra Large Original Crust Pepperoni");
