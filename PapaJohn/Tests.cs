@@ -93,9 +93,10 @@ namespace PapaJohn
 			app.Screenshot("We Tapped on 'Papa's Picks'");
 
 			app.Tap("Pepperoni");
-			app.Screenshot();
+			app.Screenshot("We Tapped on our favorite pizza, 'Pepperoni'");
 
 			app.Tap("Extra Large Original Crust Pepperoni");
+			app.Screenshot();
 
 			app.Tap("add_to_order");
 			app.Tap("top_cart_button");
