@@ -98,9 +98,9 @@ namespace PapaJohn
 			app.Tap("add_to_order");
 			app.Screenshot("Then we Tapped on 'add to order' ");
 			app.Tap("top_cart_button");
-
-
+			app.Screenshot("Next we Tapped on the 'Shopping Cart' Icon");
 			app.Tap("checkout");
+			app.Screenshot("Let's verify our pizza by Tapping on the 'checkout' Button");
 		}
 
 	}
