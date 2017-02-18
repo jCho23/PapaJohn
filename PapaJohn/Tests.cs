@@ -31,7 +31,32 @@ namespace PapaJohn
 			app.Repl();
 		}
 
+		[Test]
+		public void OrderForDeliveryTest()
+		//E-Mail: papajohn23@gmail.com
+		//Pass: Papajohn23
+		{
+			app.Tap("button2");
+			app.Screenshot("Dismissed notification");
 
+			app.Tap("signInButton");
+			app.Tap("emailTextField");
+			app.EnterText("papajohn23@gmail.com");
+			app.DismissKeyboard();
+
+			app.Tap("passwordTextField");
+			app.EnterText("Papajohn23");
+			app.DismissKeyboard();
+
+			app.Tap("signInButton");
+			app.Screenshot("Then we Tapped the 'Sign In' Button");
+		}
+
+		[Test]
+		public void OrderForCarryOutTest()
+		{
+			
+		}
 
 	}
 }
