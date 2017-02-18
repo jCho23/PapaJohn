@@ -26,11 +26,11 @@ namespace PapaJohn
 			app.Screenshot("App Launched");
 		}
 
-		[SetUp]
-		public void SetLocation(Double 37.773972, Double -122.431297)
-		{
-			app = AppInitializer.StartApp(platform);
-		}
+		//[SetUp]
+		//public void SetLocation(Double 37.773972, Double -122.431297)
+		//{
+		//	app = AppInitializer.StartApp(platform);
+		//}
 	
 		[Test]
 		public void Repl()
@@ -47,16 +47,41 @@ namespace PapaJohn
 			//app.Screenshot("Dismissed notification");
 
 			app.Tap("signInButton");
+			app.Screenshot("Let's start by Tapping on the 'Sign In' Button");
+
 			app.Tap("emailTextField");
+			app.Screenshot("Then we Tapped the Email 'Text Field'");
 			app.EnterText("papajohn23@gmail.com");
+			app.Screenshot("We entered our Email, 'papajohn23@gmail.com'");
 			app.DismissKeyboard();
+			app.Screenshot("Dismissed Keyboard");
 
 			app.Tap("passwordTextField");
+			app.Screenshot("Next, we Tapped on the password 'Text Field'");
 			app.EnterText("Papajohn23");
+			app.Screenshot("Then we entered our password, 'Papajohn23'");
 			app.DismissKeyboard();
+			app.Screenshot("Dismissed Keyboard");
 
 			app.Tap("signInButton");
 			app.Screenshot("Then we Tapped the 'Sign In' Button");
+
+			app.Tap("orderDeliveryButton");
+			app.Tap("enter_address_action_button");
+			app.Tap("text1");
+			app.Tap(x => x.Marked("text1").Index(1));
+			app.Tap(x => x.Marked("text1").Index(1));
+			app.Tap("210");
+			app.Tap("go_button");
+
+			app.Tap("Pizza");
+			app.Tap("Papa's Picks");
+			app.Tap("Pepperoni");
+			app.Tap("Extra Large Original Crust Pepperoni");
+
+			app.Tap("add_to_order");
+			app.Tap("top_cart_button");
+			app.Tap("checkout");
 		}
 
 		[Test]
