@@ -87,8 +87,11 @@ namespace PapaJohn
 			app.Screenshot("Next we Tapped on the 'Go' Button");
 
 			app.Tap("Pizza");
+			app.Screenshot("We Tapped on 'Pizza'");
 
 			app.Tap("Papa's Picks");
+			app.Screenshot();
+
 			app.Tap("Pepperoni");
 			app.Tap("Extra Large Original Crust Pepperoni");
 
