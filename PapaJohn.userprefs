@@ -1,9 +1,26 @@
 ﻿<Properties StartupConfiguration="{3BB88A6C-09C5-44A3-BC79-CC8AF1A35262}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PapaJohn/AppInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PapaJohn/Tests.cs">
     <Files>
-      <File FileName="PapaJohn/Tests.cs" Line="35" Column="3" />
-      <File FileName="PapaJohn/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="PapaJohn/Tests.cs" Line="51" Column="42" />
+      <File FileName="PapaJohn/AppInitializer.cs" Line="30" Column="17" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PapaJohn" expanded="True">
+            <Node name="PapaJohn" expanded="True">
+              <Node name="PapaJohn" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Tests(Android)" expanded="True">
+                    <Node name="OrderForCarryOutTest" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.PapaJohn PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
