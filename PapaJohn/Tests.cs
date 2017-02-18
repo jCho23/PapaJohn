@@ -26,6 +26,12 @@ namespace PapaJohn
 			app.Screenshot("App Launched");
 		}
 
+		[SetUp]
+		public void SetLocation(Double 37.773972, Double -122.431297)
+		{
+			app = AppInitializer.StartApp(platform);
+		}
+	
 		[Test]
 		public void Repl()
 		{
@@ -37,8 +43,8 @@ namespace PapaJohn
 		//E-Mail: papajohn23@gmail.com
 		//Pass: Papajohn23
 		{
-			app.Tap("button2");
-			app.Screenshot("Dismissed notification");
+			//app.Tap("button2");
+			//app.Screenshot("Dismissed notification");
 
 			app.Tap("signInButton");
 			app.Tap("emailTextField");
