@@ -71,10 +71,13 @@ namespace PapaJohn
 			app.Screenshot("Next we Tapped on the 'Order for Delivery' Button");
 
 			app.Tap("enter_address_action_button");
-			app.Screenshot("");
+			app.Screenshot("We Tapped on the 'Enter Address Button");
 
 			app.Tap("text1");
+			app.Screenshot("Then we Tapped on 'Similar Places'");
 			app.Tap(x => x.Marked("text1").Index(1));
+			app.Screenshot("Next we Tapped on '210-222 Market St'");
+
 			app.Tap(x => x.Marked("text1").Index(1));
 			app.Tap("210");
 			app.Tap("go_button");
