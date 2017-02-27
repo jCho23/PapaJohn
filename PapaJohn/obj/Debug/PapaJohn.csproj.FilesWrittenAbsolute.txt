@@ -1,7 +1,0 @@
-/Users/junecho/Projects/PapaJohn/PapaJohn/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/junecho/Projects/PapaJohn/PapaJohn/bin/Debug/PapaJohn.dll.mdb
-/Users/junecho/Projects/PapaJohn/PapaJohn/bin/Debug/PapaJohn.dll
-/Users/junecho/Projects/PapaJohn/PapaJohn/obj/Debug/PapaJohn.dll
-/Users/junecho/Projects/PapaJohn/PapaJohn/obj/Debug/PapaJohn.dll.mdb
-/Users/junecho/Projects/PapaJohn/PapaJohn/bin/Debug/nunit.framework.dll
-/Users/junecho/Projects/PapaJohn/PapaJohn/bin/Debug/Xamarin.UITest.dll

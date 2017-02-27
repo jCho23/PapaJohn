@@ -24,20 +24,17 @@ namespace PapaJohn
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
+			app.Device.SetLocation(37.773972, -122.431297);
 			app.Screenshot("App Launched");
 		}
 
-		//[SetUp]
-		//public void SetLocation(Double 37.773972, Double -122.431297)
-		//{
-		//	app = AppInitializer.StartApp(platform);
-		//}
 	
 		[Test]
 		public void Repl()
 		{
 			app.Repl();
 		}
+
 
 		[Test]
 		public void OrderForDeliveryTest()
@@ -101,6 +98,7 @@ namespace PapaJohn
 			app.Screenshot("Next we Tapped on the 'Shopping Cart' Icon");
 			app.Tap("checkout");
 			app.Screenshot("Let's verify our pizza by Tapping on the 'checkout' Button");
+
 		}
 
 	}
